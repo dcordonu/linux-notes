@@ -1,0 +1,14 @@
+[book]
+authors = ["dCordon"]
+language = "es"
+multilingual = false
+src = "src"
+title = "Notas sobre GNU/Linux"
+description = "Anotaciones en formato libro acerca de conceptos sobre GNU/Linux."
+
+[build]
+create-missing = false
+
+[output.html]
+git-repository-url = "https://github.com/dcordonu/linux-notes"
+additional-css = [ "theme/custom.css" ]
